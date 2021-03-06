@@ -1,0 +1,10 @@
+<div *ngIf="!quizList" class="spinner-grow text-primary"></div>
+<div *ngIf="quizList" class="container">
+  <h1> Historia Trivia Time!</h1>
+  <p> Choose your Subject!</p>
+  <div class="quizCard" *ngFor="let quizItem of quizList">
+    <h5>{{quizItem.name}}</h5>
+    <button routerLink="/{{quizItem.fileName}}"> Start </button>
+  </div>
+</div>
+

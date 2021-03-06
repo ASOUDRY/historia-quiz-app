@@ -1,0 +1,13 @@
+<div class="results">
+    <h2>Results</h2>
+    <div class="answer" *ngFor="let a of answers.values" 
+    [ngClass]="{correct: a.correct, red: a.correct == false}"
+    >
+      <h4>{{a.value}}
+        <h4 *ngIf="a.correct; else elseBlock">Correct</h4>
+        <ng-template #elseBlock> 
+          <h4> InCorrect </h4>  
+        </ng-template>
+      </h4>
+    </div>
+  </div>
