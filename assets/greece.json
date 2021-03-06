@@ -1,0 +1,47 @@
+[
+    {
+      "label": "Which Persian king did the Greeks defeat at the Battle of Marathon?",
+      "choices": [
+        {"value": "Cyrus", "correct": false},
+        {"value": "Xerxes ", "correct": false},
+        {"value": "Darius", "correct": true},
+        {"value": "Artaxerxes", "correct": false}
+      ]
+    },
+    {
+      "label": "Who was Alexander the Great’s teacher??",
+      "choices": [
+        {"value": "Plato", "correct": false},
+        {"value": "Aristotle", "correct": true},
+        {"value": "Diogenes", "correct": false},
+        {"value": "Socrates!", "correct": false}
+      ]
+    },
+    {
+      "label": "Who is the renowned chronicler of the Peloponnesian War?",
+      "choices": [
+        {"value": "Thucydides", "correct": true},
+        {"value": "Herodotus", "correct": false},
+        {"value": "Xenophon", "correct": false},
+        {"value": "Pliny!", "correct": false}
+      ]
+    },
+    {
+      "label": "Alexander the Great was from what part of Greece?",
+      "choices": [
+        {"value": "Crete", "correct": false},
+        {"value": "Arcadia", "correct": false},
+        {"value": "Attica", "correct": false},
+        {"value": "Macedomia", "correct": true}
+      ]
+    },
+    {
+      "label": "What city-state was Draco a legislator for?",
+      "choices": [
+        {"value": "Athens", "correct": true},
+        {"value": "Tegea", "correct": false},
+        {"value": "Hereklion", "correct": false},
+        {"value": "Patras", "correct": false}
+      ]
+    }
+  ]
